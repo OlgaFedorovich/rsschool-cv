@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+     /* background-color: rgb(68, 133, 111);  */
+    background: url(bg3.jpg) center center/cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+section {
+    padding: 50px 0px 25px;
+}
+
+hr {
+    width: 80%;
+    margin: 50px auto 0px;
+    height: 5px;
+    border: 1px solid #000;
+    background: rgb(68, 133, 111);
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgba(247, 232, 215, 0.9);
+    height: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.header_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_name div:first-child,
+.header_name div:last-child {
+    flex-basis: 40%;
+}
+
+.header_name div:first-child {
+    text-align: right;
+}
+
+.header_name div {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header_img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: url(photo3.jpg) no-repeat center center/cover;
+    margin: 0px 30px 30px;
+    box-shadow: 0px 5px 5px rgb(60, 116, 97);
+}
+
+.header_profession {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.section_icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.blocks_wrapper {
+    display: flex;
+}
+
+.blocks_wrapper > div {
+    flex: 1 1;
+}
+
+.blocks_wrapper > div:first-child {
+    text-align: right;
+    border-right: 3px solid rgb(68, 133, 111);
+    padding-right: 20px;
+}
+
+.blocks_wrapper div:first-child p {
+    margin-left: auto ;
+}
+
+.blocks_wrapper > div:last-child {
+    border-left: 3px solid rgb(68, 133, 111);
+    padding-left: 20px;
+}
+
+.profile-contact_wrapper div p {
+    width: 450px;
+}
+
+.contact p span {
+    font-weight: 600;
+}
+
+.contact p a {
+    color: #000;
+}
+
+.experience-education_list,
+.skills-interests_list {
+    list-style: none;
+}
+
+.experience-education_list li {
+    margin-bottom: 20px;
+}
+
+.experience-education_list li span {
+    display: block;
+    letter-spacing: 1.5px;
+}
+
+.experience-education_list li span:first-child {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.experience-education_list li span:last-child {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.experience-education_list li span a {
+    text-decoration: none;
+    color: #000;
+}
+
+.skills-interests_list li {
+    margin-bottom: 10px;
+}
+
+.footer_wrapper {
+    display: flex;
+    padding: 20px 10%;
+    align-items: center;
+}
+
+.footer_wrapper > div {
+    flex: 1 1;
+}
+
+.footer_social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.footer_social a:first-child {
+    background: url(fb.png) center center/contain;
+}
+
+.footer_social a:last-child {
+    background: url(instagram.png) center center/contain;
+}
+
+.footer_wrapper > div:nth-child(2) {
+    text-align: center;
+}
+
+.footer_wrapper > div:last-child {
+    text-align: right;
+}
