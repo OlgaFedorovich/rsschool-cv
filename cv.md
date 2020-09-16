@@ -44,3 +44,13 @@ I'm an enthusiastic and detail-oriented Frontend Developer seeking an entry-leve
             cardsArrayLength = cardsArray.length;
         }
 ```
+### Experience:
+
+### Education:
+1. Online courses at [Udemy.com](Udemy.com) "Web-developer 2020"
+1. Course "Frontend Developer" by [myitschool.by](myitschool.by)
+1. Course "JavaScript Development" [RS School](https://rs.school/)
+
+### Language:
+* Russian - native speaker
+* English - B2 level, fluent speaker
